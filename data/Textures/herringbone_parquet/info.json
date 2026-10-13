@@ -1,0 +1,12 @@
+{
+ "id": "herringbone_parquet",
+ "dimensions_mm": [
+  3400.0000953674316,
+  3400.0000953674316
+ ],
+ "maps": {
+  "diffuse": "textures/herringbone_parquet_diff_2k.jpg",
+  "normal": "textures/herringbone_parquet_nor_gl_2k.jpg",
+  "arm": "textures/herringbone_parquet_arm_2k.jpg"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "wood_textured_concrete",
+ "dimensions_mm": [
+  1800.0000715255737,
+  1800.0000715255737
+ ],
+ "maps": {
+  "diffuse": "textures/wood_textured_concrete_diff_2k.jpg",
+  "normal": "textures/wood_textured_concrete_nor_gl_2k.jpg",
+  "arm": "textures/wood_textured_concrete_arm_2k.jpg"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "leafy_grass",
+ "dimensions_mm": [
+  2000,
+  2000
+ ],
+ "maps": {
+  "diffuse": "textures/leafy_grass_diff_2k.jpg",
+  "normal": "textures/leafy_grass_nor_gl_2k.jpg",
+  "arm": "textures/leafy_grass_arm_2k.jpg"
+ }
+}

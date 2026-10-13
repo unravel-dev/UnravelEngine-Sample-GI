@@ -1,0 +1,12 @@
+{
+ "id": "white_stucco",
+ "dimensions_mm": [
+  1998.0629682540894,
+  1998.0640411376953
+ ],
+ "maps": {
+  "diffuse": "textures/white_stucco_diff_2k.jpg",
+  "normal": "textures/white_stucco_nor_gl_2k.jpg",
+  "arm": "textures/white_stucco_arm_2k.jpg"
+ }
+}

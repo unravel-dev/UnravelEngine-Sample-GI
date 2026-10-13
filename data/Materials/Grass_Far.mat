@@ -1,0 +1,64 @@
+{
+ "material": {
+  "polymorphic_id": 2147483649,
+  "polymorphic_name": "pbr_material",
+  "ptr_wrapper": {
+   "id": 2147483649,
+   "data": {
+    "base_type": {
+     "cull_type": 2
+    },
+    "base_color": {
+     "r": 0.36000001430511477,
+     "g": 0.5600000023841858,
+     "b": 0.33000001311302187,
+     "a": 1.0
+    },
+    "subsurface_color": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.800000011920929
+    },
+    "emissive_color": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 0.0
+    },
+    "emissive_intensity": 1.0,
+    "roughness": 1.0,
+    "metalness": 1.0,
+    "bumpiness": 1.0,
+    "alpha_mode": 0,
+    "alpha_cutoff": 0.5,
+    "tiling": {
+     "x": 533.3333129882813,
+     "y": 533.3333129882813
+    },
+    "dither_threshold": {
+     "x": 0.5,
+     "y": 0.0
+    },
+    "color_map": {
+     "uid": "c2949e9e-14f3-f640-918d-982c2807b95b"
+    },
+    "normal_map": {
+     "uid": "52653447-f7d0-d549-b20c-049462bf1d64"
+    },
+    "roughness_map": {
+     "uid": "4b2f7d6f-6ad4-414a-bdc2-5fa31ea00bbc"
+    },
+    "metalness_map": {
+     "uid": "4b2f7d6f-6ad4-414a-bdc2-5fa31ea00bbc"
+    },
+    "emissive_map": {
+     "uid": "nil"
+    },
+    "ao_map": {
+     "uid": "4b2f7d6f-6ad4-414a-bdc2-5fa31ea00bbc"
+    }
+   }
+  }
+ }
+}

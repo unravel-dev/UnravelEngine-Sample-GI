@@ -1,0 +1,12 @@
+{
+ "id": "plastered_wall_04",
+ "dimensions_mm": [
+  3199.9998092651367,
+  3199.9998092651367
+ ],
+ "maps": {
+  "diffuse": "textures/plastered_wall_04_diff_2k.jpg",
+  "normal": "textures/plastered_wall_04_nor_gl_2k.jpg",
+  "arm": "textures/plastered_wall_04_arm_2k.jpg"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "slab_tiles",
+ "dimensions_mm": [
+  2369.999885559082,
+  2370.000123977661
+ ],
+ "maps": {
+  "diffuse": "textures/slab_tiles_diff_2k.jpg",
+  "normal": "textures/slab_tiles_nor_gl_2k.jpg",
+  "arm": "textures/slab_tiles_arm_2k.jpg"
+ }
+}

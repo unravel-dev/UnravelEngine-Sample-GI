@@ -1,0 +1,12 @@
+{
+ "id": "granite_tile",
+ "dimensions_mm": [
+  2299.999952316284,
+  2299.999952316284
+ ],
+ "maps": {
+  "diffuse": "textures/granite_tile_diff_2k.jpg",
+  "normal": "textures/granite_tile_nor_gl_2k.jpg",
+  "arm": "textures/granite_tile_arm_2k.jpg"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "concrete_pavement",
+ "dimensions_mm": [
+  1800.0000715255737,
+  1800.0000715255737
+ ],
+ "maps": {
+  "diffuse": "textures/concrete_pavement_diff_2k.jpg",
+  "normal": "textures/concrete_pavement_nor_gl_2k.jpg",
+  "arm": "textures/concrete_pavement_arm_2k.jpg"
+ }
+}

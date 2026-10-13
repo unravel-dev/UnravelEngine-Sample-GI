@@ -1,0 +1,12 @@
+{
+ "id": "oak_veneer_01",
+ "dimensions_mm": [
+  1830.0000429153442,
+  1830.0000429153442
+ ],
+ "maps": {
+  "diffuse": "textures/oak_veneer_01_diff_2k.jpg",
+  "normal": "textures/oak_veneer_01_nor_gl_2k.jpg",
+  "arm": "textures/oak_veneer_01_arm_2k.jpg"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "smoked_walnut_veneer",
+ "dimensions_mm": [
+  1000,
+  1000
+ ],
+ "maps": {
+  "diffuse": "textures/smoked_walnut_veneer_diff_2k.jpg",
+  "normal": "textures/smoked_walnut_veneer_nor_gl_2k.jpg",
+  "arm": "textures/smoked_walnut_veneer_arm_2k.jpg"
+ }
+}

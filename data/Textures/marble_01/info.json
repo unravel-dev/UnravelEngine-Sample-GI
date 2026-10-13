@@ -1,0 +1,12 @@
+{
+ "id": "marble_01",
+ "dimensions_mm": [
+  1500,
+  1500
+ ],
+ "maps": {
+  "diffuse": "textures/marble_01_diff_2k.jpg",
+  "normal": "textures/marble_01_nor_gl_2k.jpg",
+  "arm": "textures/marble_01_arm_2k.jpg"
+ }
+}
