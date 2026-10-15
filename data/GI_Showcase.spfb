@@ -61,11 +61,11 @@
        "y": 0
       },
       "viewport_size": {
-       "width": 1287,
-       "height": 833
+       "width": 1920,
+       "height": 1080
       },
       "orthographic_size": 5.0,
-      "aspect_ratio": 1.545017957687378,
+      "aspect_ratio": 1.7777777910232545,
       "aspect_locked": false,
       "frustum_locked": false
      },
@@ -83,6 +83,7 @@
      "script_components": [
       {
        "type": "ShowcaseCamera",
+       "@slot": "889e46a1-c415-2b56-8ba1-24373648e1ef",
        "waypoints": "0.00 1.80 -38.00 -3.22 0.00 4.0;5.60 1.75 -23.50 0.66 -15.00 0.0;2.25 1.75 -11.00 1.48 0.00 0.0;2.25 1.75 -5.20 1.93 72.99 0.0;6.50 1.75 -3.90 -2.35 -66.18 4.5;-8.00 1.60 -3.60 2.50 -53.30 4.0;-12.20 2.00 -1.80 -0.93 80.64 4.0;-8.50 1.70 3.60 -0.00 0.00 0.0;-8.50 1.70 7.35 -0.00 83.03 0.0;-4.60 1.70 7.75 -0.00 92.77 0.0;-1.60 1.70 7.50 0.60 -50.96 5.0;-3.60 1.75 11.60 -0.54 -49.99 4.0;-4.60 1.70 7.75 -0.00 -95.86 0.0;-8.50 1.70 7.35 -0.00 180.00 0.0;-8.50 1.70 3.60 -0.00 88.65 0.0;8.50 1.70 3.90 -0.00 0.00 0.0;8.50 1.70 7.20 3.01 0.00 0.0;13.80 1.75 7.40 2.73 -58.10 4.5;1.30 1.70 7.40 3.10 56.48 4.0;2.40 1.60 8.25 5.91 0.00 3.0;8.50 1.70 8.30 1.99 86.01 0.0;12.80 1.70 8.60 2.77 0.00 0.0;12.80 1.70 11.70 -0.00 85.91 0.0;16.80 1.75 12.00 2.68 90.00 0.0;17.60 1.90 15.20 3.26 143.49 4.5;18.40 1.60 0.60 13.23 131.19 3.5;17.00 1.80 -5.00 2.10 37.57 3.5;24.30 1.80 -3.60 -0.00 180.00 0.0;24.30 1.90 -9.50 0.21 -179.58 0.0;24.00 16.00 -50.00 14.27 -19.09 4.0",
        "travelSpeed": 2.200000047683716,
        "minSegmentSeconds": 2.0,
@@ -148,6 +149,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 2,
       "intensity": 10.0,
@@ -227,6 +229,7 @@
      "script_components": [
       {
        "type": "SunCycle",
+       "@slot": "74aeea52-6694-615d-80f4-cbb00ec6bab8",
        "elevation": 38.0,
        "yaw": 150.0,
        "minElevation": 12.0,
@@ -376,20 +379,14 @@
      "settings": {
       "settings_version": 3,
       "compensation": 1.0,
-      "compensation_curve": [
-       {
-        "x": -2.5,
-        "y": -0.699999988079071
-       },
-       {
-        "x": 0.5,
-        "y": 0.0
-       },
-       {
-        "x": 3.0,
-        "y": -0.30000001192092898
+      "compensation_curve": {
+       "linked": true,
+       "channels": {
+        "value0": {
+         "keys": []
+        }
        }
-      ],
+      },
       "min_ev": -10.0,
       "max_ev": 20.0,
       "low_percentile": 0.10000000149011612,
@@ -6675,6 +6672,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 1,
       "intensity": 3.0,
@@ -7104,6 +7102,7 @@
      "script_components": [
       {
        "type": "Spinner",
+       "@slot": "b98fd620-8536-1e52-ae33-bcb518e42816",
        "degreesPerSecond": 9.0
       }
      ]
@@ -12803,6 +12802,7 @@
      "script_components": [
       {
        "type": "OrbitMover",
+       "@slot": "d891bf1f-8b6a-6d51-abf2-f4840e49b507",
        "center": {
         "x": -7.650000095367432,
         "y": 3.25,
@@ -12942,6 +12942,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 1,
       "intensity": 2.0,
@@ -24657,6 +24658,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -24750,6 +24752,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -24843,6 +24846,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -24936,6 +24940,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -25029,6 +25034,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -25122,6 +25128,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -25215,6 +25222,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -25308,6 +25316,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 30.0,
@@ -25401,6 +25410,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 35.0,
@@ -25494,6 +25504,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 22.0,
@@ -25587,6 +25598,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 22.0,
@@ -25680,6 +25692,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 22.0,
@@ -25773,6 +25786,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 18.0,
@@ -25866,6 +25880,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 0,
       "intensity": 22.0,
@@ -29240,6 +29255,7 @@
     },
     "has_light_component": true,
     "light_component": {
+     "enabled": true,
      "light": {
       "type": 1,
       "intensity": 18.0,
@@ -29288,6 +29304,7 @@
      "script_components": [
       {
        "type": "LightFlicker",
+       "@slot": "9448afa8-018a-695c-b142-37f861cb0d5d",
        "baseIntensity": 18.0,
        "flickerAmount": 0.30000001192092898,
        "flickerSpeed": 7.0
@@ -29407,193 +29424,885 @@
     "has_particle_emitter_component": true,
     "particle_emitter_component": {
      "enabled": true,
-     "culling_mode": 1,
-     "shape": 2,
-     "direction": 0,
-     "spawn_location": 0,
-     "simulation_space": 0,
-     "simulation_backend": 1,
-     "max_particles": 48,
-     "emission_lifetime": {
+     "loop": true,
+     "duration": {
       "count": 5.0
      },
-     "emission_shape_position": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
+     "start_delay": {
+      "count": 0.0
      },
-     "emission_shape_scale": {
-      "x": 0.25999999046325686,
-      "y": 0.019999999552965165,
-      "z": 0.25999999046325686
+     "prewarm": false,
+     "auto_play": true,
+     "lifetime": {
+      "min": 2.0,
+      "max": 2.0
      },
-     "gravity_scale": 0.0,
+     "max_particles": 48,
+     "simulation_space": 0,
+     "use_fixed_seed": false,
+     "random_seed": 0,
      "emission_rate": 4.199999809265137,
-     "temporal_motion": 1.0,
-     "velocity_damping": 0.0,
-     "force_over_lifetime": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
-     },
-     "size_by_speed_range": {
-      "min": 1.0,
-      "max": 1.0
-     },
-     "size_by_speed_velocity_range": {
-      "min": 0.0,
-      "max": 10.0
-     },
-     "color_by_speed_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
+     "rate_over_distance": 0.0,
+     "bursts": [],
+     "spawn_along_path": 1.0,
+     "lifetime_by_emitter_speed_curve": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
-     },
-     "color_by_speed_velocity_range": {
-      "min": 0.0,
-      "max": 10.0
-     },
-     "lifetime_by_emitter_speed_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": 1.0
-       },
-       {
-        "progress": 1.0,
-        "element": 1.0
-       }
-      ]
+      }
      },
      "lifetime_by_emitter_speed_range": {
       "min": 0.0,
       "max": 10.0
      },
-     "lifetime": {
-      "count": 2.0
+     "shape": 2,
+     "shape_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
      },
-     "velocity_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "min": 0.019999999552965165,
-         "max": 0.05999999865889549
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "min": 0.03999999910593033,
-         "max": 0.11999999731779099
-        }
+     "shape_scale": {
+      "x": 0.25999999046325686,
+      "y": 0.019999999552965165,
+      "z": 0.25999999046325686
+     },
+     "cone_angle": 25.0,
+     "torus_thickness": 0.25,
+     "shape_mesh": {
+      "uid": "nil"
+     },
+     "shape_mesh_mode": 0,
+     "spawn_location": 0,
+     "direction": 0,
+     "direction_spread": 0.0,
+     "start_speed": {
+      "min": 0.03999999910593033,
+      "max": 0.11999999731779099
+     },
+     "speed_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "scale_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "min": 0.8500000238418579,
-         "max": 1.350000023841858
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "min": 0.800000011920929,
-         "max": 1.2000000476837159
-        }
+     "motion_easing": 0,
+     "drag": 0.0,
+     "gravity_scale": 0.0,
+     "acceleration": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     "inherit_velocity": 0.0,
+     "turbulence_strength": 0.0,
+     "turbulence_frequency": 1.0,
+     "turbulence_speed": 0.5,
+     "turbulence_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "initial_scale_3d": {
+     "collision": 0,
+     "collision_planes": [],
+     "collision_radius_scale": 1.0,
+     "restitution": 0.5,
+     "friction": 0.20000000298023225,
+     "max_bounces": 3,
+     "sub_emitters": [],
+     "size_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.8500000238418579,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.800000011920929,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.350000023841858,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.2000000476837159,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "size_axes": {
       "x": 1.0,
       "y": 1.0,
       "z": 1.0
      },
+     "size_axes_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "size_by_speed_multiplier": {
+      "min": 1.0,
+      "max": 1.0
+     },
+     "size_by_speed_speed_range": {
+      "min": 0.0,
+      "max": 20.0
+     },
+     "color_gradient": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.15000000596046449,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.15000000596046449,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.15000000596046449,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.15000000596046449,
+          "value": 1.0,
+          "in_tangent": 1.1999999284744263,
+          "out_tangent": 1.1999999284744263,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 0.8999999761581421,
+          "in_tangent": -1.1764705181121827,
+          "out_tangent": -1.1764705181121827,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "random_between_gradients": false,
+     "color_gradient_b": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 2.0,
+          "out_tangent": 2.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": -2.0,
+          "out_tangent": -2.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
      "opacity": 1.0,
      "color_intensity": 0.949999988079071,
-     "color_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 0.0
-        }
-       },
-       {
-        "progress": 0.15000000596046449,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
-       },
-       {
-        "progress": 0.75,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 0.8999999761581421
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 0.0
-        }
+     "intensity_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "position_easing": 0,
+     "color_by_speed_gradient": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "color_by_speed_speed_range": {
+      "min": 0.0,
+      "max": 20.0
+     },
+     "start_rotation": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "spin_speed": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "spin_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "random_spin_direction": false,
+     "align_to_direction": false,
      "texture": {
       "uid": "cf00a9ba-c1de-1042-b017-fa8e1d1d5575"
      },
      "texture_mode": 0,
-     "render_mode": 2,
-     "blend_mode": 1,
      "texture_sheet_tiles": {
       "x": 8.0,
       "y": 8.0
      },
      "texture_sheet_cycles": 1.0,
      "texture_sheet_randomize": true,
-     "loop": true,
-     "start_delay": {
-      "count": 0.0
+     "texture_sheet_random_row": false,
+     "texture_sheet_use_frame_curve": false,
+     "texture_sheet_frame_curve": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
      },
-     "align_to_direction": false,
+     "frame_blending": false,
+     "erosion_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "render_mode": 2,
+     "trail_length": 0.5,
+     "trail_width_end": 0.0,
+     "ribbon_texture_mode": 0,
+     "ribbon_tile_time": 0.25,
+     "stretch_length_scale": 1.0,
+     "stretch_speed_scale": 0.10000000149011612,
+     "stretch_camera_velocity_scale": 0.0,
+     "facing_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+     },
+     "render_mesh": {
+      "uid": "nil"
+     },
+     "render_material": {
+      "uid": "nil"
+     },
+     "mesh_cast_shadows": true,
+     "blend_mode": 1,
      "pivot": {
       "x": 0.5,
       "y": 1.0
-     }
+     },
+     "soft_fade_distance": 0.0,
+     "camera_offset": 0.0,
+     "lighting": 0,
+     "lighting_wrap": 0.5,
+     "normal_texture": {
+      "uid": "nil"
+     },
+     "receive_shadows": true,
+     "light_count": 0,
+     "light_intensity": 20.0,
+     "light_range": 3.0,
+     "light_color_from_particle": true,
+     "sort_mode": 0,
+     "sort_priority": 0,
+     "sort_backend": 1,
+     "culling_mode": 1,
+     "max_draw_distance": 0.0,
+     "draw_distance_fade": 2.0,
+     "camera_fade_range": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "max_screen_size": 0.0,
+     "subpixel_fade": false,
+     "bounds_mode": 0,
+     "fixed_bounds": {
+      "min": {
+       "x": -5.0,
+       "y": -5.0,
+       "z": -5.0
+      },
+      "max": {
+       "x": 5.0,
+       "y": 5.0,
+       "z": 5.0
+      }
+     },
+     "primitive": 0,
+     "cutout_alpha_threshold": 0.05000000074505806,
+     "half_resolution": false,
+     "taa_response": 0.5,
+     "write_velocity": false,
+     "velocity_alpha_threshold": 0.5
     }
    }
   },
@@ -29648,193 +30357,885 @@
     "has_particle_emitter_component": true,
     "particle_emitter_component": {
      "enabled": true,
-     "culling_mode": 1,
-     "shape": 0,
-     "direction": 1,
-     "spawn_location": 0,
-     "simulation_space": 0,
-     "simulation_backend": 1,
-     "max_particles": 160,
-     "emission_lifetime": {
+     "loop": true,
+     "duration": {
       "count": 5.0
      },
-     "emission_shape_position": {
-      "x": 0.0,
-      "y": 4.5,
-      "z": 0.0
+     "start_delay": {
+      "count": 0.0
      },
-     "emission_shape_scale": {
-      "x": 0.09000000357627869,
-      "y": 0.10000000149011612,
-      "z": 0.09000000357627869
+     "prewarm": false,
+     "auto_play": true,
+     "lifetime": {
+      "min": 5.5,
+      "max": 5.5
      },
-     "gravity_scale": 0.0,
+     "max_particles": 160,
+     "simulation_space": 0,
+     "use_fixed_seed": false,
+     "random_seed": 0,
      "emission_rate": 18.0,
-     "temporal_motion": 1.0,
-     "velocity_damping": 0.0,
-     "force_over_lifetime": {
-      "x": 0.05000000074505806,
-      "y": 0.019999999552965165,
-      "z": 0.02500000037252903
-     },
-     "size_by_speed_range": {
-      "min": 1.0,
-      "max": 1.0
-     },
-     "size_by_speed_velocity_range": {
-      "min": 0.0,
-      "max": 10.0
-     },
-     "color_by_speed_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
+     "rate_over_distance": 0.0,
+     "bursts": [],
+     "spawn_along_path": 1.0,
+     "lifetime_by_emitter_speed_curve": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
-     },
-     "color_by_speed_velocity_range": {
-      "min": 0.0,
-      "max": 10.0
-     },
-     "lifetime_by_emitter_speed_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": 1.0
-       },
-       {
-        "progress": 1.0,
-        "element": 1.0
-       }
-      ]
+      }
      },
      "lifetime_by_emitter_speed_range": {
       "min": 0.0,
       "max": 10.0
      },
-     "lifetime": {
-      "count": 5.5
+     "shape": 0,
+     "shape_position": {
+      "x": 0.0,
+      "y": 4.5,
+      "z": 0.0
      },
-     "velocity_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "min": 2.200000047683716,
-         "max": 3.4000000953674318
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "min": 2.200000047683716,
-         "max": 3.4000000953674318
-        }
+     "shape_scale": {
+      "x": 0.09000000357627869,
+      "y": 0.10000000149011612,
+      "z": 0.09000000357627869
+     },
+     "cone_angle": 25.0,
+     "torus_thickness": 0.25,
+     "shape_mesh": {
+      "uid": "nil"
+     },
+     "shape_mesh_mode": 0,
+     "spawn_location": 0,
+     "direction": 1,
+     "direction_spread": 0.0,
+     "start_speed": {
+      "min": 0.800000011920929,
+      "max": 1.2363636493682862
+     },
+     "speed_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "scale_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "min": 0.5,
-         "max": 0.75
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "min": 2.799999952316284,
-         "max": 4.0
-        }
+     "motion_easing": 0,
+     "drag": 0.0,
+     "gravity_scale": 0.0,
+     "acceleration": {
+      "x": 0.10000000149011612,
+      "y": 0.03999999910593033,
+      "z": 0.05000000074505806
+     },
+     "inherit_velocity": 0.0,
+     "turbulence_strength": 0.0,
+     "turbulence_frequency": 1.0,
+     "turbulence_speed": 0.5,
+     "turbulence_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "initial_scale_3d": {
+     "collision": 0,
+     "collision_planes": [],
+     "collision_radius_scale": 1.0,
+     "restitution": 0.5,
+     "friction": 0.20000000298023225,
+     "max_bounces": 3,
+     "sub_emitters": [],
+     "size_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.5,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 2.799999952316284,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.75,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 4.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "size_axes": {
       "x": 1.0,
       "y": 1.0,
       "z": 1.0
      },
+     "size_axes_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "size_by_speed_multiplier": {
+      "min": 1.0,
+      "max": 1.0
+     },
+     "size_by_speed_speed_range": {
+      "min": 0.0,
+      "max": 20.0
+     },
+     "color_gradient": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.15000000596046449,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.05999999865889549,
+          "value": 0.17000000178813935,
+          "in_tangent": 0.17999997735023499,
+          "out_tangent": 0.17999997735023499,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 0.23999999463558198,
+          "in_tangent": 0.1595744639635086,
+          "out_tangent": 0.1595744639635086,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.3199999928474426,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.14000000059604646,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.05999999865889549,
+          "value": 0.1599999964237213,
+          "in_tangent": 0.19999998807907105,
+          "out_tangent": 0.19999998807907105,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 0.23999999463558198,
+          "in_tangent": 0.1702127605676651,
+          "out_tangent": 0.1702127605676651,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.3199999928474426,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.12999999523162843,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.05999999865889549,
+          "value": 0.15000000596046449,
+          "in_tangent": 0.2199999988079071,
+          "out_tangent": 0.2199999988079071,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 0.23999999463558198,
+          "in_tangent": 0.1808510571718216,
+          "out_tangent": 0.1808510571718216,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.3199999928474426,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.20000000298023225,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.05999999865889549,
+          "value": 0.4000000059604645,
+          "in_tangent": 0.14000001549720765,
+          "out_tangent": 0.14000001549720765,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 0.27000001072883608,
+          "in_tangent": -0.42553192377090456,
+          "out_tangent": -0.42553192377090456,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "random_between_gradients": false,
+     "color_gradient_b": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 2.0,
+          "out_tangent": 2.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": -2.0,
+          "out_tangent": -2.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
      "opacity": 0.8999999761581421,
      "color_intensity": 1.0,
-     "color_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "r": 0.15000000596046449,
-         "g": 0.14000000059604646,
-         "b": 0.12999999523162843,
-         "a": 0.20000000298023225
-        }
-       },
-       {
-        "progress": 0.05999999865889549,
-        "element": {
-         "r": 0.17000000178813935,
-         "g": 0.1599999964237213,
-         "b": 0.15000000596046449,
-         "a": 0.4000000059604645
-        }
-       },
-       {
-        "progress": 0.5,
-        "element": {
-         "r": 0.23999999463558198,
-         "g": 0.23999999463558198,
-         "b": 0.23999999463558198,
-         "a": 0.27000001072883608
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "r": 0.3199999928474426,
-         "g": 0.3199999928474426,
-         "b": 0.3199999928474426,
-         "a": 0.0
-        }
+     "intensity_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "position_easing": 0,
+     "color_by_speed_gradient": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "color_by_speed_speed_range": {
+      "min": 0.0,
+      "max": 20.0
+     },
+     "start_rotation": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "spin_speed": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "spin_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "random_spin_direction": false,
+     "align_to_direction": false,
      "texture": {
       "uid": "9d41959a-908d-8848-af85-298764cf856b"
      },
      "texture_mode": 0,
-     "render_mode": 0,
-     "blend_mode": 0,
      "texture_sheet_tiles": {
       "x": 4.0,
       "y": 4.0
      },
      "texture_sheet_cycles": 0.0,
      "texture_sheet_randomize": true,
-     "loop": true,
-     "start_delay": {
-      "count": 0.0
+     "texture_sheet_random_row": false,
+     "texture_sheet_use_frame_curve": false,
+     "texture_sheet_frame_curve": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
      },
-     "align_to_direction": false,
+     "frame_blending": false,
+     "erosion_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "render_mode": 0,
+     "trail_length": 0.5,
+     "trail_width_end": 0.0,
+     "ribbon_texture_mode": 0,
+     "ribbon_tile_time": 0.25,
+     "stretch_length_scale": 1.0,
+     "stretch_speed_scale": 0.10000000149011612,
+     "stretch_camera_velocity_scale": 0.0,
+     "facing_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+     },
+     "render_mesh": {
+      "uid": "nil"
+     },
+     "render_material": {
+      "uid": "nil"
+     },
+     "mesh_cast_shadows": true,
+     "blend_mode": 0,
      "pivot": {
       "x": 0.5,
       "y": 0.5
-     }
+     },
+     "soft_fade_distance": 0.0,
+     "camera_offset": 0.0,
+     "lighting": 0,
+     "lighting_wrap": 0.5,
+     "normal_texture": {
+      "uid": "nil"
+     },
+     "receive_shadows": true,
+     "light_count": 0,
+     "light_intensity": 20.0,
+     "light_range": 3.0,
+     "light_color_from_particle": true,
+     "sort_mode": 0,
+     "sort_priority": 0,
+     "sort_backend": 1,
+     "culling_mode": 1,
+     "max_draw_distance": 0.0,
+     "draw_distance_fade": 2.0,
+     "camera_fade_range": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "max_screen_size": 0.0,
+     "subpixel_fade": false,
+     "bounds_mode": 0,
+     "fixed_bounds": {
+      "min": {
+       "x": -5.0,
+       "y": -5.0,
+       "z": -5.0
+      },
+      "max": {
+       "x": 5.0,
+       "y": 5.0,
+       "z": 5.0
+      }
+     },
+     "primitive": 0,
+     "cutout_alpha_threshold": 0.05000000074505806,
+     "half_resolution": false,
+     "taa_response": 0.5,
+     "write_velocity": false,
+     "velocity_alpha_threshold": 0.5
     }
    }
   },
@@ -29889,193 +31290,885 @@
     "has_particle_emitter_component": true,
     "particle_emitter_component": {
      "enabled": true,
-     "culling_mode": 1,
-     "shape": 1,
-     "direction": 1,
-     "spawn_location": 0,
-     "simulation_space": 0,
-     "simulation_backend": 1,
-     "max_particles": 96,
-     "emission_lifetime": {
+     "loop": true,
+     "duration": {
       "count": 2.0
      },
-     "emission_shape_position": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
+     "start_delay": {
+      "count": 0.0
      },
-     "emission_shape_scale": {
-      "x": 0.30000001192092898,
-      "y": 0.550000011920929,
-      "z": 0.30000001192092898
+     "prewarm": false,
+     "auto_play": true,
+     "lifetime": {
+      "min": 1.7000000476837159,
+      "max": 1.7000000476837159
      },
-     "gravity_scale": 0.0,
+     "max_particles": 96,
+     "simulation_space": 0,
+     "use_fixed_seed": false,
+     "random_seed": 0,
      "emission_rate": 22.0,
-     "temporal_motion": 1.0,
-     "velocity_damping": 0.0,
-     "force_over_lifetime": {
-      "x": 0.2199999988079071,
-      "y": 0.3499999940395355,
-      "z": 0.11999999731779099
-     },
-     "size_by_speed_range": {
-      "min": 1.0,
-      "max": 1.0
-     },
-     "size_by_speed_velocity_range": {
-      "min": 0.0,
-      "max": 10.0
-     },
-     "color_by_speed_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "r": 1.0,
-         "g": 1.0,
-         "b": 1.0,
-         "a": 1.0
-        }
+     "rate_over_distance": 0.0,
+     "bursts": [],
+     "spawn_along_path": 1.0,
+     "lifetime_by_emitter_speed_curve": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
-     },
-     "color_by_speed_velocity_range": {
-      "min": 0.0,
-      "max": 10.0
-     },
-     "lifetime_by_emitter_speed_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": 1.0
-       },
-       {
-        "progress": 1.0,
-        "element": 1.0
-       }
-      ]
+      }
      },
      "lifetime_by_emitter_speed_range": {
       "min": 0.0,
       "max": 10.0
      },
-     "lifetime": {
-      "count": 1.7000000476837159
+     "shape": 1,
+     "shape_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
      },
-     "velocity_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "min": 1.0,
-         "max": 2.0
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "min": 0.8999999761581421,
-         "max": 2.4000000953674318
-        }
+     "shape_scale": {
+      "x": 0.30000001192092898,
+      "y": 0.550000011920929,
+      "z": 0.30000001192092898
+     },
+     "cone_angle": 25.0,
+     "torus_thickness": 0.25,
+     "shape_mesh": {
+      "uid": "nil"
+     },
+     "shape_mesh_mode": 0,
+     "spawn_location": 0,
+     "direction": 1,
+     "direction_spread": 0.0,
+     "start_speed": {
+      "min": 1.0588234663009644,
+      "max": 2.8235292434692385
+     },
+     "speed_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "scale_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "min": 0.02199999988079071,
-         "max": 0.03999999910593033
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "min": 0.006000000052154064,
-         "max": 0.012000000104308129
-        }
+     "motion_easing": 0,
+     "drag": 0.0,
+     "gravity_scale": 0.0,
+     "acceleration": {
+      "x": 0.4399999976158142,
+      "y": 0.699999988079071,
+      "z": 0.23999999463558198
+     },
+     "inherit_velocity": 0.0,
+     "turbulence_strength": 0.0,
+     "turbulence_frequency": 1.0,
+     "turbulence_speed": 0.5,
+     "turbulence_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "initial_scale_3d": {
+     "collision": 0,
+     "collision_planes": [],
+     "collision_radius_scale": 1.0,
+     "restitution": 0.5,
+     "friction": 0.20000000298023225,
+     "max_bounces": 3,
+     "sub_emitters": [],
+     "size_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.02199999988079071,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.006000000052154064,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.03999999910593033,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.012000000104308129,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "size_axes": {
       "x": 1.0,
       "y": 1.0,
       "z": 1.0
      },
+     "size_axes_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "size_by_speed_multiplier": {
+      "min": 1.0,
+      "max": 1.0
+     },
+     "size_by_speed_speed_range": {
+      "min": 0.0,
+      "max": 20.0
+     },
+     "color_gradient": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.07999999821186066,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.550000011920929,
+          "value": 1.0,
+          "in_tangent": -0.27173912525177,
+          "out_tangent": -0.27173912525177,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.75,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.8999999761581421,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.07999999821186066,
+          "value": 0.8199999928474426,
+          "in_tangent": -0.7272726893424988,
+          "out_tangent": -0.7272726893424988,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.550000011920929,
+          "value": 0.5,
+          "in_tangent": -0.6956521272659302,
+          "out_tangent": -0.6956521272659302,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.18000000715255738,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.6000000238418579,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.07999999821186066,
+          "value": 0.44999998807907107,
+          "in_tangent": -0.836363673210144,
+          "out_tangent": -0.836363673210144,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.550000011920929,
+          "value": 0.14000000059604646,
+          "in_tangent": -0.44565215706825259,
+          "out_tangent": -0.44565215706825259,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.03999999910593033,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.07999999821186066,
+          "value": 1.0,
+          "in_tangent": 1.6363635063171387,
+          "out_tangent": 1.6363635063171387,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.550000011920929,
+          "value": 0.8999999761581421,
+          "in_tangent": -1.08695650100708,
+          "out_tangent": -1.08695650100708,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "random_between_gradients": false,
+     "color_gradient_b": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.25,
+          "value": 1.0,
+          "in_tangent": 2.0,
+          "out_tangent": 2.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.5,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 0.75,
+          "value": 1.0,
+          "in_tangent": -2.0,
+          "out_tangent": -2.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
      "opacity": 1.0,
      "color_intensity": 9.0,
-     "color_gradient": {
-      "points": [
-       {
-        "progress": 0.0,
-        "element": {
-         "r": 1.0,
-         "g": 0.8999999761581421,
-         "b": 0.6000000238418579,
-         "a": 0.0
-        }
-       },
-       {
-        "progress": 0.07999999821186066,
-        "element": {
-         "r": 1.0,
-         "g": 0.8199999928474426,
-         "b": 0.44999998807907107,
-         "a": 1.0
-        }
-       },
-       {
-        "progress": 0.550000011920929,
-        "element": {
-         "r": 1.0,
-         "g": 0.5,
-         "b": 0.14000000059604646,
-         "a": 0.8999999761581421
-        }
-       },
-       {
-        "progress": 1.0,
-        "element": {
-         "r": 0.75,
-         "g": 0.18000000715255738,
-         "b": 0.03999999910593033,
-         "a": 0.0
-        }
+     "intensity_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
        }
-      ]
+      }
      },
-     "position_easing": 0,
+     "color_by_speed_gradient": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value1": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value2": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       },
+       "value3": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "color_by_speed_speed_range": {
+      "min": 0.0,
+      "max": 20.0
+     },
+     "start_rotation": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "spin_speed": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "spin_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "random_spin_direction": false,
+     "align_to_direction": false,
      "texture": {
       "uid": "e42b6c9f-69d9-a549-9f91-34e3be40a1f4"
      },
      "texture_mode": 0,
-     "render_mode": 0,
-     "blend_mode": 1,
      "texture_sheet_tiles": {
       "x": 1.0,
       "y": 1.0
      },
      "texture_sheet_cycles": 0.0,
      "texture_sheet_randomize": false,
-     "loop": true,
-     "start_delay": {
-      "count": 0.0
+     "texture_sheet_random_row": false,
+     "texture_sheet_use_frame_curve": false,
+     "texture_sheet_frame_curve": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 1.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
      },
-     "align_to_direction": false,
+     "frame_blending": false,
+     "erosion_over_life": {
+      "linked": true,
+      "channels": {
+       "value0": {
+        "keys": [
+         {
+          "position": 0.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         },
+         {
+          "position": 1.0,
+          "value": 0.0,
+          "in_tangent": 0.0,
+          "out_tangent": 0.0,
+          "interpolation": 1,
+          "tangent_mode": 0
+         }
+        ]
+       }
+      }
+     },
+     "render_mode": 0,
+     "trail_length": 0.5,
+     "trail_width_end": 0.0,
+     "ribbon_texture_mode": 0,
+     "ribbon_tile_time": 0.25,
+     "stretch_length_scale": 1.0,
+     "stretch_speed_scale": 0.10000000149011612,
+     "stretch_camera_velocity_scale": 0.0,
+     "facing_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+     },
+     "render_mesh": {
+      "uid": "nil"
+     },
+     "render_material": {
+      "uid": "nil"
+     },
+     "mesh_cast_shadows": true,
+     "blend_mode": 1,
      "pivot": {
       "x": 0.5,
       "y": 0.5
-     }
+     },
+     "soft_fade_distance": 0.0,
+     "camera_offset": 0.0,
+     "lighting": 0,
+     "lighting_wrap": 0.5,
+     "normal_texture": {
+      "uid": "nil"
+     },
+     "receive_shadows": true,
+     "light_count": 0,
+     "light_intensity": 20.0,
+     "light_range": 3.0,
+     "light_color_from_particle": true,
+     "sort_mode": 0,
+     "sort_priority": 0,
+     "sort_backend": 1,
+     "culling_mode": 1,
+     "max_draw_distance": 0.0,
+     "draw_distance_fade": 2.0,
+     "camera_fade_range": {
+      "min": 0.0,
+      "max": 0.0
+     },
+     "max_screen_size": 0.0,
+     "subpixel_fade": false,
+     "bounds_mode": 0,
+     "fixed_bounds": {
+      "min": {
+       "x": -5.0,
+       "y": -5.0,
+       "z": -5.0
+      },
+      "max": {
+       "x": 5.0,
+       "y": 5.0,
+       "z": 5.0
+      }
+     },
+     "primitive": 0,
+     "cutout_alpha_threshold": 0.05000000074505806,
+     "half_resolution": false,
+     "taa_response": 0.5,
+     "write_velocity": false,
+     "velocity_alpha_threshold": 0.5
     }
    }
   },
