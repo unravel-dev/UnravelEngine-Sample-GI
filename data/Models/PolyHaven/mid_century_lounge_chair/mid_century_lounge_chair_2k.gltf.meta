@@ -35,7 +35,9 @@
       "max_cards": 12,
       "lod_index": 1
      },
-     "rig": {},
+     "rig": {
+      "humanoid_overrides": []
+     },
      "animations": {
       "import_animations": true
      },
