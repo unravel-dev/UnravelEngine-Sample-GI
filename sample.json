@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "title": "GI Showcase",
+  "topic": "Global illumination",
+  "description": "A walk through a grand hall, a light lab, a gallery, a courtyard and a plaza, lit by the sun, emissive surfaces and lights alone. Shows dynamic global illumination and reflections, emissive light and a sun you can sweep through the day.",
+  "tags": [
+    "Global Illumination",
+    "Reflections",
+    "Lighting"
+  ],
+  "icon": "white-balance-sunny",
+  "order": 60,
+  "added": "2026-10-13",
+  "thumbnail": "thumbnail.jpg"
+}
